@@ -14,6 +14,9 @@
 		1838C3D31C11FC13007C6D2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1838C3D21C11FC13007C6D2E /* Images.xcassets */; };
 		1838C3D61C11FC13007C6D2E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1838C3D41C11FC13007C6D2E /* LaunchScreen.xib */; };
 		1838C3E21C11FC13007C6D2E /* BezierPathAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838C3E11C11FC13007C6D2E /* BezierPathAnimationTests.m */; };
+		1852630E1C2165010058FC04 /* butterfly_blue_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852630B1C2165010058FC04 /* butterfly_blue_01.png */; };
+		1852630F1C2165010058FC04 /* butterfly_blue_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852630C1C2165010058FC04 /* butterfly_blue_02.png */; };
+		185263101C2165010058FC04 /* butterfly_blue_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852630D1C2165010058FC04 /* butterfly_blue_03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		1838C3DB1C11FC13007C6D2E /* BezierPathAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierPathAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1838C3E01C11FC13007C6D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1838C3E11C11FC13007C6D2E /* BezierPathAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierPathAnimationTests.m; sourceTree = "<group>"; };
+		1852630B1C2165010058FC04 /* butterfly_blue_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly_blue_01.png; sourceTree = "<group>"; };
+		1852630C1C2165010058FC04 /* butterfly_blue_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly_blue_02.png; sourceTree = "<group>"; };
+		1852630D1C2165010058FC04 /* butterfly_blue_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly_blue_03.png; sourceTree = "<group>"; };
+		185263111C2165A10058FC04 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +92,7 @@
 				1838C3CA1C11FC13007C6D2E /* AppDelegate.m */,
 				1838C3CC1C11FC13007C6D2E /* ViewController.h */,
 				1838C3CD1C11FC13007C6D2E /* ViewController.m */,
+				185263111C2165A10058FC04 /* Macro.h */,
 				1838C3CF1C11FC13007C6D2E /* Main.storyboard */,
 				1838C3D21C11FC13007C6D2E /* Images.xcassets */,
 				1838C3D41C11FC13007C6D2E /* LaunchScreen.xib */,
@@ -96,6 +104,9 @@
 		1838C3C51C11FC13007C6D2E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1852630B1C2165010058FC04 /* butterfly_blue_01.png */,
+				1852630C1C2165010058FC04 /* butterfly_blue_02.png */,
+				1852630D1C2165010058FC04 /* butterfly_blue_03.png */,
 				1838C3C61C11FC13007C6D2E /* Info.plist */,
 				1838C3C71C11FC13007C6D2E /* main.m */,
 			);
@@ -199,9 +210,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185263101C2165010058FC04 /* butterfly_blue_03.png in Resources */,
+				1852630E1C2165010058FC04 /* butterfly_blue_01.png in Resources */,
 				1838C3D11C11FC13007C6D2E /* Main.storyboard in Resources */,
 				1838C3D61C11FC13007C6D2E /* LaunchScreen.xib in Resources */,
 				1838C3D31C11FC13007C6D2E /* Images.xcassets in Resources */,
+				1852630F1C2165010058FC04 /* butterfly_blue_02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +430,7 @@
 				1838C3E71C11FC13007C6D2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1838C3E81C11FC13007C6D2E /* Build configuration list for PBXNativeTarget "BezierPathAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +439,7 @@
 				1838C3EA1C11FC13007C6D2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
